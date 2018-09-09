@@ -11,20 +11,6 @@
 ### 2 应用软件
 * python——可以用Anaconda管理，IPython+JupiterNoteBook。
 
-
-
-### 1 系统软件
-* 可以尝试安装archlinux系统来体验自定义安装操作系统的感觉。为什么是archlinux呢？原因如下:
-	* 我们安装windows都是被引导着被动下一步，失去了自己给磁盘分区，设置引导，连接网络，安装自己喜欢的桌面环境等等很多过程。arch自由度比较高。
-	* arhlinux滚动更新。
-	* 可以使用pacman安装很多软件，只要mirrorlist里面有，pacman帮我们找到软件来源，用户只需要告诉他匹配的名字就好了。
- 
-
-
-### 2 应用软件
-* python——可以用Anaconda管理，IPython+JupiterNoteBook。
-
-
 ## 二、数学建模常用的两大软件Matlab与Latex的简单介绍及入门
 
 ## 三、OJ（Online Judge）的介绍及可能出现的问题
