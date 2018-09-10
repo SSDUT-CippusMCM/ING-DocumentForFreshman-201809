@@ -48,11 +48,11 @@ IDE及可能需要的编译器会好一些
 
 &emsp;&emsp;Windows下推荐TeXLive，不推荐安装CTeX套装。具体安装程序可以到搜索引擎搜索TeXLive，官网下载。
 
-&emsp;&emsp;Sublime Text也可以，轻量级的软件，且代码高亮美观。
-
 ##### Latex编辑器的选择
 
-&emsp;&emsp;Windows下最常用的编辑器是WinEdt，功能齐全，适合入门。在搜索引擎搜索关键字后通过iso镜像文件下载。
+&emsp;&emsp;Windows下最常用的编辑器是WinEdt，功能齐全，适合入门。在搜索引擎搜索关键字后通过iso镜像文件下载。Sublime Text也可以，轻量级的软件，且代码高亮美观。
+
+#### 6. 
 
 ## 三、OJ（Online Judge）的介绍及可能出现的问题
 
