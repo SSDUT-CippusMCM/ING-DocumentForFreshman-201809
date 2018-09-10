@@ -26,6 +26,7 @@ IDE及可能需要的编译器会好一些
 好的软件可以帮助我们提高办公学习效率以及编写代码的体验。
 
 * python——可以用Anaconda管理，IPython+JupiterNoteBook。
+* Typora ——— 笔记软件，支持Markdown语法输入文字、Latex语法输入公式以及为不同语言提供高亮的代码块，可以利用CSS个性化主题，并且为Mac用户提供图床。缺点是字数较多时会卡顿。
 
 
 ## 二、数学建模常用的两大软件Matlab与Latex的简单介绍及入门
@@ -36,7 +37,7 @@ IDE及可能需要的编译器会好一些
 #### 1 Latex的介绍
 > &emsp;&emsp;LaTeX， 是一种基于TEX的排版系统，由美国电脑学家莱斯利·兰伯特在20世纪80年代初期开发，利用这种格式，即使用户没有排版和程序设计的知识也可以充分发挥由TEX所提供的强大功能，能在几天，甚至几小时内生成很多具有书籍质量的印刷品。对于生成复杂表格和数学公式，这一点表现得尤为突出。因此它非常适用于生成高印刷质量的科技和数学类文档。这个系统同样适用于生成从简单的信件到完整书籍的所有其他种类的文档。
 
-&emsp;&emsp;简单来说，Latex是用于生成PDF文档的编辑与排版软件，排版效果、对复杂公式的支持与对插图的支持相比Word更优秀。
+&emsp;&emsp;简单来说，Latex是用于生成PDF文档的编辑与排版软件，排版效果、对复杂公式的支持与对插图的支持相比Word更优秀。LaTeX编辑和排版的核心思想在于，通过\section和\paragraph等语句，规定了每一句话在文章中所从属的层次，从而极大方便了对各个层次批量处理。
 
 #### 2 Latex的安装
 
@@ -48,11 +49,19 @@ IDE及可能需要的编译器会好一些
 |  Mac  |  MacTeX  |
 |  Windows & Linux  |  TeXLive  |
 
-&emsp;&emsp;Windows下推荐TeXLive，不推荐安装CTeX套装。具体安装程序可以到搜索引擎搜索TeXLive，官网下载。
+&emsp;&emsp;Windows下推荐TeXLive，不推荐安装CTeX套装。关于TeXLive与MikTeX的对比，[点这里](https://tex.stackexchange.com/questions/20036/what-are-the-advantages-of-tex-live-over-miktex)。具体安装程序可以到搜索引擎搜索TeXLive，官网下载。
 
 ##### Latex编辑器的选择
 
-&emsp;&emsp;Windows下最常用的编辑器是WinEdt，功能齐全，适合入门。在搜索引擎搜索关键字后通过iso镜像文件下载。Sublime Text也可以，轻量级的软件，且代码高亮美观。
+&emsp;&emsp;Windows下最常用的编辑器是WinEdt，功能齐全，适合入门。收费应用，只有30天试用期，网上可以找到破解版。Sublime Text也可以，也是收费应用，轻量级，打开快，且代码高亮美观。
+
+##### Latex中PDF阅读器的选择
+
+&emsp;&emsp;较常用的是SumatraPDF，用于查看编译出来的PDF格式的论文。
+
+##### WinEdt的环境配置
+
+&emsp;&emsp;下载安装TeXLive与SumatraPDF后，需要在WinEdt中将其设置为默认的编译器与PDF阅读器。配置的具体步骤[点这里](https://blog.csdn.net/wr339988/article/details/66634637/)
 
 
 ### 3 Latex基础入门
