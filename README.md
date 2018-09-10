@@ -29,6 +29,10 @@ IDE及可能需要的编译器会好一些
 
 ## 二、数学建模常用的两大软件——Matlab与Latex的简单介绍及入门
 
+### 1. Matlab
+
+### 2. Latex入门
+
 #### 1. Latex的介绍及安装
 
 **(1) Latex的介绍**
@@ -47,6 +51,8 @@ IDE及可能需要的编译器会好一些
 |  Windows & Linux  |  TeXLive  |
 
 &emsp;&emsp;Windows下推荐TeXLive，不推荐安装CTeX套装。具体安装程序可以到搜索引擎搜索TeXLive，官网下载。
+
+&emsp;&emsp;Sublime Text也可以，轻量级的软件，且代码高亮美观。
 
 ##### Latex编辑器的选择
 
