@@ -29,6 +29,8 @@ IDE及可能需要的编译器会好一些
 可以用Anaconda管理，IPython+JupiterNoteBook。
 * **Typora**  
 笔记软件，支持Markdown语法输入文字、Latex语法输入公式以及为不同语言提供高亮的代码块，可以利用CSS个性化主题，并且为Mac用户提供图床。缺点是字数较多时会卡顿。
+* **Chrome插件HTML5 Video Speed Control**
+在Chrome看视频时可以调整倍速，对于在Chrome学习视频非常实用，比如b站“线性代数的本质”系列。
 
 
 ## 二、数学建模常用的两大软件Matlab与Latex的简单介绍及入门
