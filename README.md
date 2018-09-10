@@ -25,8 +25,10 @@ IDE及可能需要的编译器会好一些
 
 好的软件可以帮助我们提高办公学习效率以及编写代码的体验。
 
-* python——可以用Anaconda管理，IPython+JupiterNoteBook。
-* Typora ——— 笔记软件，支持Markdown语法输入文字、Latex语法输入公式以及为不同语言提供高亮的代码块，可以利用CSS个性化主题，并且为Mac用户提供图床。缺点是字数较多时会卡顿。
+* **python**  
+可以用Anaconda管理，IPython+JupiterNoteBook。
+* **Typora**  
+笔记软件，支持Markdown语法输入文字、Latex语法输入公式以及为不同语言提供高亮的代码块，可以利用CSS个性化主题，并且为Mac用户提供图床。缺点是字数较多时会卡顿。
 
 
 ## 二、数学建模常用的两大软件Matlab与Latex的简单介绍及入门
