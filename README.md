@@ -28,9 +28,6 @@ IDE及可能需要的编译器会好一些
 * python——可以用Anaconda管理，IPython+JupiterNoteBook。
 
 ## 二、数学建模常用的两大软件——Matlab与Latex的简单介绍及入门
-### 1. Matlab
-
-### 2 Latex基础入门
 
 #### 5. Latex的介绍及安装
 
