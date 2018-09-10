@@ -28,7 +28,85 @@ IDE及可能需要的编译器会好一些
 * python——可以用Anaconda管理，IPython+JupiterNoteBook。
 
 ## 二、数学建模常用的两大软件——Matlab与Latex的简单介绍及入门
+### 2 Latex基础入门
+#### 1 基本格式
+* 文档的开始和结束
+```
+\documentclass[12pt]{ctexart}
+\usepackage{graphicx}  %这里主要是插入一些宏包
+\begin{document}
+\section{1}
+\subsection{123}
+一些内容
+\end{document}
+```
+* 一二三级标题
+```
+\section{}      %一级标题
+\subsection{}   %二级标题
+\subsubsection{}%三级标题
+```
+通常在中文论文写作中，一级标题用汉字书写，只需要添加一行
+```
+\CTEXsetup[number={\chinese{section}}]{section}
+```
+* 注释
+	* 单行注释使用%
+	* 多行注释
+	```
+	\usepackage{verbatim}
+	\begin{comment}
+	
+	\end{comment}
+	```
+#### 2 插入图片
+```
+\usepackage{graphicx}
+\begin{figure}[!h]
+  \centering
+   \includegraphics[width=0.8\textwidth]{picture.jpg}
+  \caption{图片}
+\end{figure}
+```
+需要注意的是，picture.jpg应与.tex处于同一目录下。同时，对于一些复杂格式的图片不能采用此方式保存。
+#### 3 数学公式
+* 公式语法
+	* 下标使用_{下标内容}，上标使用^{上标内容}
+	* 分式使用\dfrac{分子}{分母}
+	* 希腊字母如β使用\beta
+* 插入公式
+	* 不换行公式
+	```
+	$x_{min}+x_{max}$
+	\begin{math} 
+	x_{min}+x_{max} 
+	\end{math}
+	```
+	* 换行公式
+	```
+	\begin{equation} 
+	x_{min}+x_{max} 
+	\end{equation}
+	```
+若不希望对公式自动编号，则在equation后加一个*。
 
+#### 4 插入表格
+```
+\begin{table}[!h]
+\centering
+\begin{tabular}{ccccc} %c表示center居中，l表示left左对齐，r表示right右对齐
+\toprule
+Country& Life expectancy  &Population&Growth rate &Labour force  \\
+\midrule
+The U.S. & 77 &30.393& 1 &99  \\
+Canada & 79 &3.077&1  &100 \\
+China & 71 &133.42&0.8  &92 \\
+Japan & 81 & 332.42&0.2  &100 \\
+\bottomrule
+\end{tabular}
+\caption{Index data(Only a small part)}
+\end{table}
+```
 ## 三、OJ（Online Judge）的介绍及可能出现的问题
 
 ## 四、电脑硬件知识的普及及选购建议
