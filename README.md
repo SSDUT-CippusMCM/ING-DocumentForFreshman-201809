@@ -164,6 +164,7 @@ plot(x,sin(x))
 \end{figure}
 ```
 需要注意的是，picture.jpg应与.tex处于同一目录下。同时，对于一些复杂格式的图片不能采用此方式保存。
+
 #### 3 数学公式
 * 公式语法
 	* 下标使用_{下标内容}，上标使用^{上标内容}
@@ -185,7 +186,7 @@ plot(x,sin(x))
 	```
 若不希望对公式自动编号，则在equation后加一个*。
 
-#### 4 插入表格
+#### 4 三线表
 ```
 \begin{table}[!h]
 \centering
@@ -201,6 +202,20 @@ Japan & 81 & 332.42&0.2  &100 \\
 \end{tabular}
 \caption{Index data(Only a small part)}
 \end{table}
+```
+
+
+#### 5 代码插入
+```
+\usepackage{listings}
+\begin{lstlisting}[language=C++]
+#include<iostream>
+using namespace std;
+int main()
+{
+    cout << "Hello, World!" << endl;
+} 
+\end{lstlisting}
 ```
 
 ## 三、OJ（Online Judge）的介绍及可能出现的问题
