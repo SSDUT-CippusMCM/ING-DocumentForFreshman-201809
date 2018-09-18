@@ -282,3 +282,17 @@ OJ是用来在线检测程序的判题系统，同时各大OJ平台上有大量�
 
 
 ## 七、常见其它问题FAQ
+* Mac端常用软件推荐	
+	* C或C++的编译器CLion。CLion是一款专为开发C及C++所设计的跨平台IDE，Windows、Linux、Mac下都支持CLion。虽然CLion收费，但是可以在官网上凭借学生优惠安装，用校园邮箱验证信息
+	* 只用于Mac下的集成开发编译器Xcode。Xcode是Mac上相似于VS在Windows中的一款编辑器，负责Apple平台的所有应用开发，Xcode中可以选择不同语言自如使用，如C、C++、Swift、Objective-C等
+	* Eclipse。Eclipse主要用于Java或JavaWeb程序的开发
+	* Pycharm。一款有免费版的用于Python语言的IDE
+	* CAJViewerMac。一款用于查看.caj文件(从知网下载的论文格式)的软件
+	* The Unarchiver。Mac下的解压软件
+	* 迅雷、百度云。老司机都懂
+	* virtualbox。较为好用的虚拟机管理工具
+	* mysql或postgresql，数据库。Mac下没有sqlserver
+	* Appache Tomcat服务器
+	* 其他。有很多好用的软件同时也具有Mac端的版本，如Office、Matlab、CS系列等，虽然资源比较难找，但耐心百度总是有的
+* Mac下Python包管理工具:pip3、homebrew
+* Mac下配置环境：和Windows直接修改不同，Mac端通常需要更改bash_profile配置文件
