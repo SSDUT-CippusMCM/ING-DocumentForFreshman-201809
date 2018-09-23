@@ -302,6 +302,6 @@ Mac是工作上使用电脑的非常好的选择，还可以限制自己玩游�
 	* 其他。有很多好用的软件同时也具有Mac端的版本，如Office、Matlab、CS系列等，虽然资源比较难找，但耐心百度总是有的
 * Mac下Python包管理工具:pip3、homebrew
 * Mac下配置环境：和Windows直接修改不同，Mac端通常需要更改bash_profile配置文件
-## 八、广告
+## 八、友情链接
 * 欢迎大家我的关注我的知乎专栏，地址为https://zhuanlan.zhihu.com/duduru 内容是关于深度学习，机器学习。可能现在接触对大家有点早，不过还是推荐一下
 
