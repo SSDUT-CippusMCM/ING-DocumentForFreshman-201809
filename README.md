@@ -39,7 +39,7 @@
 
 ### 工具，脚本类
 
-* **Chrome 插件 HTML5 Video Speed Control**  
+* [**Chrome 插件 HTML5 Video Speed Control**](https://chrome.google.com/webstore/detail/html5-video-speed-control/ejdipbccipeloijefbkiakckfhdbgocg)  
 	在 Chrome 看视频时可以调整倍速，对于在 Chrome 学习视频非常实用，比如 B 站 [3Blue1Brown](https://www.3blue1brown.com/) 出品的[《线性代数的本质》系列](https://www.bilibili.com/video/av6731067)（强烈推荐看看，尤其是当你看了让人蒙圈的国内线代教材）。
 * [**Tampermonkey**](https://www.tampermonkey.net/) 油猴脚本
 
