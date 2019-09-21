@@ -168,19 +168,19 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 
 如果想了解更多关于 CPU 型号及其代表，可以参考这篇文章 https://www.cnblogs.com/ArsenalfanInECNU/p/6903771.html?utm_source=debugrun&utm_medium=referral
 
-之后，说一下显卡选购。目前市场上比较流行 3 种显卡：英伟达（NVIDA）、AMD、Intel。有一种说法是 AMD 拥有极致色彩，NVIDA 做到了曲线细分，Intel 动态模糊……不管怎么说，如果想做图形学做渲染英伟达还是不错的。<a id="footnote-gpu-ref" href="#footnote-gpu">[3]</a>
+之后，说一下显卡选购。目前市场上比较流行 3 种显卡：英伟达（NVIDA）、AMD、Intel。有一种说法是 AMD 拥有极致色彩，NVIDA 做到了曲线细分，Intel 动态模糊……不管怎么说，如果想做图形学做渲染英伟达还是不错的。<sup><a id="footnote-gpu-ref" href="#footnote-gpu">[3]</a></sup>
 
-硬盘有两种：机械硬盘和固态硬盘 (SSD)。机械硬盘速度很慢，但容量可以很大，价格较便宜，适合用作数据盘。固态硬盘速度很快，大容量的 SSD 更是昂贵，个人建议购买 0.5 TB 或 256 GB 固态硬盘，用作系统盘<a id="footnote-ssd-ref" href="#footnote-ssd">[4]</a>。
+硬盘有两种：机械硬盘和固态硬盘 (SSD)。机械硬盘速度很慢，但容量可以很大，价格较便宜，适合用作数据盘。固态硬盘速度很快，大容量的 SSD 更是昂贵，个人建议购买 0.5 TB 或 256 GB 固态硬盘，用作系统盘<sup><a id="footnote-ssd-ref" href="#footnote-ssd">[4]</a></sup>。
 
 ---
 
-<p id="footnote-cpu_gen"> [1] 此处泛指多核处理器，不谈代数谈 i5、i7 都是耍流氓，所以本段默认理解为 8 代就好了，当然你可以选择使用志强 Xeon 系列处理器。<a href="#footnote-cpu_gen-ref">&#8617;</a></p>
+<p id="footnote-cpu_gen"> <sup>[1]</sup> 此处泛指多核处理器，不谈代数谈 i5、i7 都是耍流氓，所以本段默认理解为 8 代就好了，当然你可以选择使用志强 Xeon 系列处理器。<a href="#footnote-cpu_gen-ref">&#8617;</a></p>
 
-<p id="footnote-cpu_lie"> [2] 某些无良商家用带 U 的 i7 谎称比标准电压的 i5 好，当然现在可能不多见了。<a href="#footnote-cpu_lie-ref">&#8617;</a></p>
+<p id="footnote-cpu_lie"> <sup>[2]</sup> 某些无良商家用带 U 的 i7 谎称比标准电压的 i5 好，当然现在可能不多见了。<a href="#footnote-cpu_lie-ref">&#8617;</a></p>
 
-<p id="footnote-gpu"> [3] 大部分的机器学习相关框架只支持 N 卡 (英伟达显卡), 还有诸如 940MX、MX150、MX110 之类的都是较弱的 Nvidia 显卡，大型游戏之类的跑得动，所谓性价比较高的显卡应该是 GTX1060。另，本段所提到的 Intel 显卡都是集成显卡，并非独立显卡。一般情况下会随 Intel CPU 附带。<a href="#footnote-gpu-ref">&#8617;</a></p>
+<p id="footnote-gpu"> <sup>[3]</sup> 大部分的机器学习相关框架只支持 N 卡 (英伟达显卡), 还有诸如 940MX、MX150、MX110 之类的都是较弱的 Nvidia 显卡，大型游戏之类的跑得动，所谓性价比较高的显卡应该是 GTX1060。另，本段所提到的 Intel 显卡都是集成显卡，并非独立显卡。一般情况下会随 Intel CPU 附带。<a href="#footnote-gpu-ref">&#8617;</a></p>
 
-<p id="footnote-ssd">  [4] 用了之后就不想换回来。<a href="#footnote-ssd-ref">&#8617;</a></p>
+<p id="footnote-ssd">  <sup>[4]</sup> 用了之后就不想换回来。<a href="#footnote-ssd-ref">&#8617;</a></p>
 
 
 ### 整笔记本推荐
