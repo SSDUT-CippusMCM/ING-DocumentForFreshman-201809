@@ -171,7 +171,7 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 
 关于市面上笔记本常见的 CPU 型号，我们经常能够看到在处理器型号后面带一个字母 U 或 H，例如 “第八代智能英特尔 ® 酷睿™ i7-8750H 处理器”，“第八代智能英特尔 ® 酷睿™ i7-8550U 处理器”。U 表示 Ultra Low Voltage，即超低电压版 CPU，这种型号的 CPU 功耗较低，延长了续航时间，但是性能能会受到一定的影响，例如超极本上常使用这种 CPU。H 代表高电压，这种 CPU 性能较优，但是续航能力较低。<sup><a id="footnote-cpu_lie-ref" href="#footnote-cpu_lie">[2]</a></sup>
 
-如果想了解更多关于 CPU 型号及其代表，可以参考这篇文章 https://www.cnblogs.com/ArsenalfanInECNU/p/6903771.html?utm_source=debugrun&utm_medium=referral
+如果想了解更多关于 CPU 型号及其代表，可以参考[这篇文章](https://www.cnblogs.com/ArsenalfanInECNU/p/6903771.html?utm_source=debugrun&utm_medium=referral)。
 
 之后，说一下显卡选购。目前市场上比较流行 3 种显卡：英伟达（NVIDA）、AMD、Intel。有一种说法是 AMD 拥有极致色彩，NVIDA 做到了曲线细分，Intel 动态模糊……不管怎么说，如果想做图形学做渲染英伟达还是不错的。<sup><a id="footnote-gpu-ref" href="#footnote-gpu">[3]</a></sup>
 
