@@ -251,7 +251,7 @@ Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门
 	* The Unarchiver。Mac 下的解压软件
 	* 迅雷、百度云。老司机都懂
 	* [VirtualBox](https://www.virtualbox.org)。较为好用的虚拟机管理工具
-	* [MySQL](https://www.mysql.com/) 或 PostgreSQL，数据库。Mac 下没有 SQL Server
+	* [MySQL](https://www.mysql.com/) 或 [PostgreSQL](https://postgresql.org)，数据库。Mac 下没有 SQL Server
 	* [Appache Tomcat](https://tomcat.apache.org/) 服务器
 	* [Vim](https://www.vim.org/) 是极为好用的编辑工具，尽管有一定的学习成本
 	* [Sublime](https://www.sublimetext.com/) 编辑 + 终端下编译 也是极为好用的工具 
