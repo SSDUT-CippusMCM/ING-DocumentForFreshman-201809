@@ -11,7 +11,9 @@
 * 可以尝试安装 Arch Linux 系统来体验自定义安装操作系统的感觉。为什么是 Arch Linux 呢？原因如下:
 	* 我们安装 Windows 都是被引导着被动下一步，失去了自己给磁盘分区，设置引导，连接网络，安装自己喜欢的桌面环境等等很多过程。Arch 自由度比较高。
 	* Arch Linux 滚动更新。
+	* Arch Linux 官方 Wiki 非常全面，涵盖面很广。
 	* 可以使用 `pacman` 安装很多软件，只要 `mirrorlist` 里面有，`pacman` 帮我们找到软件来源，用户只需要告诉他匹配的名字就好了。
+	* 还可以直接使用 `yay` 来安装，并且配上清华源。
 * 挂载双系统：可以用 `grub` 挂载双系统．第二个系统和第一个系统共用 EFI 分区，这样就不用每次都进入 Boot 选择进入那个分区了。
  
 ### 2 应用软件
@@ -19,23 +21,26 @@
 好的软件可以帮助我们提高办公学习效率以及编写代码的体验。
 
 * **Python**  
-	可以用 Anaconda 管理，IPython + Jupyter NoteBook。
+	可以用 Anaconda 管理，IPython + Jupyter NoteBook (Jupyter Lab)。如果觉得 Anaconda 太大，还可以使用 Miniconda 然后使用 conda-forge 社区维护的版本，自定义需要的软件。（依然有清华源）
 * **Typora**  
-	笔记软件，支持 Markdown 语法输入文字、LaTeX 语法输入公式以及为不同语言提供高亮的代码块，可以利用 CSS 个性化主题，并且为 Mac 用户提供图床。缺点是字数较多时会卡顿。
-* **Visual studio 2017**  
-	Visual Studio Community 2017 社区版为免费版本，在任务有网络的地方可以轻松下载获取。安装的过程中，几乎不需要任何的干预既可以安装完成，但安装 VS 要注意一定要安装社区版（Visual Studio Community 2017 社区版为免费版本，另外两个版本是收费的，安装了收费版本就卸载吧）；此外，下载最好在教学区等有不限流量网络的地方；其次，安装后出了问题不能打开、不能新建工程之类的，直接卸载（可用一开始下载的预安装程序卸载，卸载的干净），亲测好用。
-	[Visual studio 2017 基本配置](https://blog.csdn.net/u010202588/article/details/79366328)
+	笔记软件，支持 Markdown 语法输入文字、LaTeX 语法输入数学公式以及为不同语言提供高亮的代码块，可以利用 CSS 个性化主题，并且为 Mac 用户提供图床。缺点是字数较多时会卡顿（因为使用了 Electron 框架）。
+* **Visual Studio 2019**  
+	Visual Studio Community 2019 社区版为免费版本，在任务有网络的地方可以轻松下载获取。安装的过程中，几乎不需要任何的干预既可以安装完成，但安装 VS 要注意一定要安装社区版（Visual Studio Community 2019 社区版为免费版本，另外两个版本是收费的，安装了收费版本就卸载吧）；此外，下载最好在教学区等有不限流量网络的地方；其次，安装后出了问题不能打开、不能新建工程之类的，直接卸载（可用一开始下载的预安装程序卸载，卸载的干净），亲测好用。
+	[Visual Studio 2017 基本配置](https://blog.csdn.net/u010202588/article/details/79366328)
 * **Code::Blocks**  
 	Code::Blocks 是初学者常用的 C/C++ IDE。它也是很好的跨平台 IDE，界面干净利落，支持语法彩色醒目显示，支持代码完成，支持工程管理、项目构建、调试。Code::Blocks 对初学者十分友好，其代码补全功能可以大大提升写代码速度。
 * **Dev-C++**  
 	Dev-C++ 是一款适合初学者的轻量级 C/C++ 集成开发环境（IDE），开发环境包括多页面窗口、工程编辑器以及调试器等，在工程编辑器中集合了编辑器、编译器、连接程序和执行程序，提供高亮度语法显示的，以减少编辑错误，还有完善的调试功能，适合初学者与编程高手的不同需求。
 * **Sublime Text**  
 	Sublime Text 是一个代码编辑器，Sublime Text 具有漂亮的用户界面和强大的功能，例如代码缩略图，Python 的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查、书签、完整的 Python API、Goto 功能、即时项目切换、多选择、多窗口等等。Sublime Text 是一个跨平台的编辑器，同时支持 Windows、Linux、Mac OS X 等操作系统。支持多重插件，大大扩展其功能。
+* **Visual Studio Code**  
+	这不是 Visual Studio，Visual Studio Code 是一个代码编辑器，用户界面漂亮，丰富的插件，跨平台支持，内置 Git 支持，最重要的是它不像 Sublime Text 要收费，它是开源免费软件。
 
 ### 3 工具，脚本类
 
 * **Chrome 插件 HTML5 Video Speed Control**  
-	在 Chrome 看视频时可以调整倍速，对于在 Chrome 学习视频非常实用，比如 B 站《线性代数的本质》系列。
+	在 Chrome 看视频时可以调整倍速，对于在 Chrome 学习视频非常实用，比如 B 站 [3Blue1Brown](https://www.3blue1brown.com/) 出品的[《线性代数的本质》系列](https://www.bilibili.com/video/av6731067)（强烈推荐看看，尤其是当你看了让人蒙圈的国内线代教材）。
+* **Tampermonkey** 油猴脚本
 
 ### 4 免费获取软件的重要工具 —— 学校邮箱  
 
@@ -52,13 +57,13 @@ MATLAB 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是�
 
 #### 2 MATLAB 的安装
 
-可以自行下载安装包，学校也提供 MATLAB 2018 正版软件免费下载（但使用需要在 DLUT 下）。具体安装步骤移步百度，都有十分详细的教程。安装时间比较长，建议在校园网环境下安装。([学校超算中心网址](http://hpc.dlut.edu.cn/))
+可以自行下载安装包，学校也提供 MATLAB 2018 正版软件免费下载（但使用需要在 DLUT 下）。具体安装步骤移步百度，都有十分详细的教程。安装时间比较长，建议在校园网环境下安装。([学校超算中心网址](https://hpc.dlut.edu.cn/))
 
-* 大连理工大学超算中心的正版软件模块有 MATLAB 2018a 的详细下载安装方法，建议把下面链接里的所有细节（MATLAB 校园单机版安装指南、Windows 版 `iso` 格式 MATLAB 安装文件使用方法说明、MATLAB 许可证关联方法、MathWorks 账户创建方法、大工云盘 MATLAB 校园单机版安装文件下载方法、MATLAB 功能说明）全看完再去安装。 MATLAB - 高性能计算中心链接如下（注意！要使用校园网才能打开链接）：[MATLAB - 高性能计算中心](http://hpc.dlut.edu.cn/jingyanjiaoliu/list.jsp?urltype=tree.TreeTempUrl&wbtreeid=1059)
+* 大连理工大学超算中心的正版软件模块有 MATLAB 2018a 的详细下载安装方法，建议把下面链接里的所有细节（MATLAB 校园单机版安装指南、Windows 版 `iso` 格式 MATLAB 安装文件使用方法说明、MATLAB 许可证关联方法、MathWorks 账户创建方法、大工云盘 MATLAB 校园单机版安装文件下载方法、MATLAB 功能说明）全看完再去安装。 MATLAB - 高性能计算中心链接如下（注意！要使用校园网才能打开链接）：[MATLAB-超算中心网站](https://hpc.dlut.edu.cn/cszy/syrj/MATLAB.htm)
 
 #### 3 MATLAB 基础入门
 
-* 安装完成之后，MATLAB 的界面有命令行窗口、工作区、文件路径等几个窗口。大家可以先尝试着在命令行窗口里面输入一些简单的运算，体验一下 MATLAB 的一些简单操作。如果需要进行计算，可以直接在命令框中进行输入计算，回车就可以得出结果，同样，一些数学表达式也可以得出来。比如，输入 `2+3` 后点击回车，显示出了 `ans = 5` 的结果。输入 `exp (3)`（求 <img src="https://latex.codecogs.com/svg.latex?e%5E3" alt="e^3" border="0">）得到 `ans = 20.0855` 的结果。
+* 安装完成之后，MATLAB 的界面有命令行窗口、工作区、文件路径等几个窗口。大家可以先尝试着在命令行窗口里面输入一些简单的运算，体验一下 MATLAB 的一些简单操作。如果需要进行计算，可以直接在命令框中进行输入计算，回车就可以得出结果，同样，一些数学表达式也可以得出来。比如，输入 `2+3` 后点击回车，显示出了 `ans = 5` 的结果。输入 `exp (3)`（求 ![e^3](https://latex.codecogs.com/svg.latex?e%5E3)）得到 `ans = 20.0855` 的结果。
 
 	```matlab
 	>> 2+3
@@ -77,7 +82,7 @@ MATLAB 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是�
 
 * 在命令行窗口中输入 `clear`，敲击回车之后，就可以清空工作区中目前存在的变量。在命令行中输入 `clc`，就可以清空历史窗口中的内容，但是其变量都不会消失。一般我们会选择输入 `clear`、`回车`、`clc`、`回车`，然后重新对 MATLAB 进行新的操作（这一系列操作的结果与关闭了软件之后再打开会得到一样的结果）。
 
-* MATLAB 的强大之处，不光在于它的矩阵计算与数值处理上，图形绘制也是它的一方面。例如，通过使用一些函数，可以绘制出 <img src="https://latex.codecogs.com/svg.latex?y%3D%5Csin%20x" alt="y=\sin x" border="0"> 的曲线，还可以改变曲线的颜色、对图形进行标注等等。其中，`plot` 是比较常用的一个功能比较强大的函数。
+* MATLAB 的强大之处，不光在于它的矩阵计算与数值处理上，图形绘制也是它的一方面。例如，通过使用一些函数，可以绘制出 ![y=\sin x](https://latex.codecogs.com/svg.latex?y%3D%5Csin%20x) 的曲线，还可以改变曲线的颜色、对图形进行标注等等。其中，`plot` 是比较常用的一个功能比较强大的函数。
 
 	```matlab
 	>> x=-pi:pi/20:pi;
@@ -97,7 +102,7 @@ MATLAB 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是�
 * 邓薇，MATLAB 函数速查手册，人民邮电出版社  
 	非常有用方便的工具书。
 
-### 2 LaTeX 的介绍及安装
+### 2 LaTeX 的介绍、安装与入门
 
 #### 1 LaTeX 的介绍
 
@@ -107,128 +112,19 @@ MATLAB 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是�
 
 #### 2 LaTeX 的安装
 
-##### TeX 发行版的选择
+- [TeX Live 下载及安装说明](https://liam.page/texlive/)
 
-|       OS        | TeX Distribution |
-| :------: | :------: |
-|     Windows     |       CTeX       |
-|       Mac       |      MacTeX      |
-| Windows & Linux |     TeXLive      |
+#### 3 LaTeX 的入门
 
-Windows 下推荐 TeXLive，不推荐安装 CTeX 套装。关于 TeXLive 与 MikTeX 的对比，[点这里](https://TeX.stackexchange.com/questions/20036/what-are-the-advantages-of-TeX-live-over-mikTeX)。具体安装程序可以到搜索引擎搜索 TeXLive，官网下载。
+先看这份
 
-##### LaTeX 编辑器的选择
+- [一份其实很短的 LaTeX 入门文档](https://liam.page/2014/09/08/latex-introduction/)
 
-Windows 下最常用的编辑器是 WinEdt，功能齐全，适合入门。收费应用，只有 30 天试用期，网上可以找到破解版。Sublime Text 也可以，也是收费应用，轻量级，打开快，且代码高亮美观。
+如果这份内容不够，再看这份
 
-##### LaTeX 中 PDF 阅读器的选择
+- [一份不太简短的 LaTeX 2ε 介绍 （PDF版）](http://mirrors.ctan.org/info/lshort/chinese/lshort-zh-cn.pdf)
 
- 较常用的是 SumatraPDF，用于查看编译出来的 PDF 格式的论文。
-
-##### WinEdt 的环境配置
-
- 下载安装 TeXLive 与 SumatraPDF 后，需要在 WinEdt 中将其设置为默认的编译器与 PDF 阅读器。配置的具体步骤 [点这里](https://blog.csdn.net/wr339988/article/details/66634637/)
-
-
-### 3 LaTeX 基础入门
-
-#### 1 基本格式
-
-* 文档的开始和结束
-	```latex
-	\documentclass[12pt]{ctexart}
-	\usepackage{graphicx}  % 这里主要是插入一些宏包
-	\begin{document}
-	\section{1}
-	\subsection{123}
-	一些内容
-	\end{document}
-	```
-
-* 一二三级标题
-	```latex
-	\section{}      % 一级标题
-	\subsection{}   % 二级标题
-	\subsubsection{}% 三级标题
-	```
-	通常在中文论文写作中，一级标题用汉字书写，只需要添加一行
-	```latex
-	\CTEXsetup[number={\chinese{section}}]{section}
-	```
-* 注释
-	* 单行注释使用 `%`
-	* 多行注释
-	```latex
-	\usepackage{verbatim}
-	\begin{comment}
-	
-	\end{comment}
-	```
-
-#### 2 插入图片
-
-```latex
-\usepackage{graphicx}
-\begin{figure}[!h]
-  \centering
-  \includegraphics[width=0.8\textwidth]{picture.jpg}
-  \caption{图片}
-\end{figure}
-```
-需要注意的是，`picture.jpg` 应与 `.tex` 处于同一目录下。同时，对于一些复杂格式的图片不能采用此方式保存。
-
-#### 3 数学公式
-
-* 公式语法
-	* 下标使用 `_{下标内容}`，上标使用 `^{上标内容}`
-	* 分式使用 `\dfrac{分子}{分母}`
-	* 希腊字母如 $\beta$ 使用 `\beta`
-* 插入公式
-	* 不换行公式
-	```latex
-	$x_{min}+x_{max}$
-	\begin{math} 
-	x_{min}+x_{max} 
-	\end{math}
-	```
-* 换行公式
-	```latex
-	\begin{equation} 
-	x_{min}+x_{max} 
-	\end{equation}
-	```
-若不希望对公式自动编号，则在 `equation` 后加一个 `*`。
-
-#### 4 三线表
-
-```latex
-\begin{table}[!h]
-\centering
-\begin{tabular}{ccccc} % c 表示 center 居中，l 表示 left 左对齐，r 表示 right 右对齐
-\toprule
-Country& Life expectancy  &Population&Growth rate &Labour force  \\
-\midrule
-The U.S. & 77 &30.393& 1 &99  \\
-Canada & 79 &3.077&1  &100 \\
-China & 71 &133.42&0.8  &92 \\
-Japan & 81 & 332.42&0.2  &100 \\
-\bottomrule
-\end{tabular}
-\caption{Index data (Only a small part)}
-\end{table}
-```
-
-#### 5 代码插入
-
-```latex
-\usepackage{listings}
-\begin{lstlisting}[language=C++]
-#include<iostream>
-using namespace std;
-int main ()
-{cout << "Hello, World!" << endl;} 
-\end{lstlisting}
-```
+如果还有一些地方找不到，请用英文进行 Google 搜索，你会解决 99% 的问题（只要你不碰黑暗的底层原理）。
 
 ## 三、OJ（Online Judge）的介绍及可能出现的问题
 
@@ -243,7 +139,7 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 ### 2 遇到 Wrong Answer 该怎么做？
 
 * 检查输入输出格式
-  对初学者来说，最可能的非代码逻辑错误 Wrong Answer 原因就是输入输出格式不正确，这个链接里面介绍了几种输入输出格式的写法：[点我](http://cscoder.iteye.com/blog/2306067)
+  对初学者来说，最可能的非代码逻辑错误 Wrong Answer 原因就是输入输出格式不正确，这个链接里面介绍了几种输入输出格式的写法：[点我](https://cscoder.iteye.com/blog/2306067)
 
   同时也要注意是否有多余空格输出、I64d or lld？输出浮点数的精度问题等等。（这样的失误也可能造成 Presentation Error）
 
@@ -258,9 +154,9 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 
 ## 四、电脑硬件知识的普及及选购建议
 
-> 请注意，本部分只作为硬件知识选购的一个科普，非专业推荐，无利益相关由于大部分的学长学姐一年以上没有买电脑了，所以消息可能有迟滞性如有同学想增添相关知识，请私发给副组，我们会增添上内容并注明作者。
+> 请注意，本部分只作为硬件知识选购的一个科普，非专业推荐，无利益相关。由于大部分的学长学姐一年以上没有买电脑了，所以消息可能有迟滞性如有同学想增添相关知识，请私发给副组，我们会增添上内容并注明作者。
 
-### １　笔记本选购心得
+### 笔记本选购心得
 
 首先讲一讲买电脑要看哪些指标。
 
@@ -287,7 +183,7 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 <p id="footnote-ssd">  [4] 用了之后就不想换回来。<a href="#footnote-ssd-ref">&#8617;</a></p>
 
 
-### 2  整笔记本推荐
+### 整笔记本推荐
 
 > “没钱就上船，船翻了就修或者买新的。一个外星人可以买两个船。”
 > 
@@ -333,7 +229,7 @@ Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门
 * PPT 制作相关 —— 标题含图表术的都可以看看
 * LaTeX 论文写作入门 —— 正确写作美国大学生数学竞赛论文
 * 高等数学 —— 前期可以做吉米多维奇 中后期考研真题（吉米多维奇可能不是很建议 ——hty）
-* 线性代数 —— 线性代数应该这样学（比较难懂，但是思路和我们的教材不一样 答案在网上可以找到）
+* 线性代数 —— David C. Lay《线性代数及其应用》、Sheldon Axler《线性代数应该这样学》（比较难懂，但是思路和我们的教材不一样 答案在网上可以找到）
 * 英语学习 —— 为了英文参考文献的阅读和英语论文的书写，我们需要有好的英语水平。由于数模比赛内容宽泛，可以在学英语的同时了解跨学科知识，比如政治经济新闻。推荐 *the Econmoist*，*Monocle*, etc.
 * [廖雪峰的官方网站，有不少优质的资源](https://liaoxuefeng.com/)
 
@@ -353,7 +249,8 @@ Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门
 	* Vim 是极为好用的编辑工具，尽管有一定的学习成本
 	* Sublime 编辑 + 终端下编译 也是极为好用的工具 
 	* 其他。有很多好用的软件同时也具有 Mac 端的版本，如 Office、MATLAB、CS 系列等，虽然资源比较难找，但耐心百度总是有的
-* Mac 下 Python 包管理工具：`pip3`、`homebrew`
+* Mac 下 Python 包管理工具：Anaconda
+* Mac 下软件包管理工具：HomeBrew
 * Mac 下配置环境：和 Windows 直接修改不同，Mac 端通常需要更改 `bash_profile` 配置文件
 
 ## 八、友情链接
