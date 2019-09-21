@@ -8,43 +8,43 @@
 
 ### 1 系统软件
 
-* 可以尝试安装 Arch Linux 系统来体验自定义安装操作系统的感觉。为什么是 Arch Linux 呢？原因如下:
+* 可以尝试安装 [Arch Linux 系统](https://www.archlinux.org/)来体验自定义安装操作系统的感觉。为什么是 Arch Linux 呢？原因如下:
 	* 我们安装 Windows 都是被引导着被动下一步，失去了自己给磁盘分区，设置引导，连接网络，安装自己喜欢的桌面环境等等很多过程。Arch 自由度比较高。
 	* Arch Linux 滚动更新。
-	* Arch Linux 官方 Wiki 非常全面，涵盖面很广。
-	* 可以使用 `pacman` 安装很多软件，只要 `mirrorlist` 里面有，`pacman` 帮我们找到软件来源，用户只需要告诉他匹配的名字就好了。
-	* 还可以直接使用 `yay` 来安装，并且配上清华源。
+	* Arch Linux [官方 Wiki](https://wiki.archlinux.org/) 非常全面，涵盖面很广。
+	* 可以使用 [`pacman`](https://wiki.archlinux.org/index.php/Pacman) 安装很多软件，只要 `mirrorlist` 里面有，`pacman` 帮我们找到软件来源，用户只需要告诉他匹配的名字就好了。
+	* 还可以直接使用 [`yay`](https://github.com/yaybu/yay) 来安装，并且配上[清华源](https://mirrors.tuna.tsinghua.edu.cn/)。
 * 挂载双系统：可以用 `grub` 挂载双系统．第二个系统和第一个系统共用 EFI 分区，这样就不用每次都进入 Boot 选择进入那个分区了。
  
 ### 2 应用软件
 
 好的软件可以帮助我们提高办公学习效率以及编写代码的体验。
 
-* **Python**  
-	可以用 Anaconda 管理，IPython + Jupyter NoteBook (Jupyter Lab)。如果觉得 Anaconda 太大，还可以使用 Miniconda 然后使用 conda-forge 社区维护的版本，自定义需要的软件。（依然有清华源）
-* **Typora**  
+* [**Python**](https://www.python.org/)  
+	可以用 [Anaconda](https://www.anaconda.com) 管理，IPython + [Jupyter](https://jupyter.org)。如果觉得 Anaconda 太大，还可以使用 [Miniconda](https://docs.conda.io/en/latest/miniconda.html) 然后使用 [conda-forge](https://conda-forge.org/) 社区维护的版本，自定义需要的软件。（依然有清华源）
+* [**Typora**](https://typora.io)  
 	笔记软件，支持 Markdown 语法输入文字、LaTeX 语法输入数学公式以及为不同语言提供高亮的代码块，可以利用 CSS 个性化主题，并且为 Mac 用户提供图床。缺点是字数较多时会卡顿（因为使用了 Electron 框架）。
-* **Visual Studio 2019**  
+* [**Visual Studio 2019**](https://visualstudio.microsoft.com/)  
 	Visual Studio Community 2019 社区版为免费版本，在任务有网络的地方可以轻松下载获取。安装的过程中，几乎不需要任何的干预既可以安装完成，但安装 VS 要注意一定要安装社区版（Visual Studio Community 2019 社区版为免费版本，另外两个版本是收费的，安装了收费版本就卸载吧）；此外，下载最好在教学区等有不限流量网络的地方；其次，安装后出了问题不能打开、不能新建工程之类的，直接卸载（可用一开始下载的预安装程序卸载，卸载的干净），亲测好用。
 	[Visual Studio 2017 基本配置](https://blog.csdn.net/u010202588/article/details/79366328)
-* **Code::Blocks**  
+* [**Code::Blocks**](http://www.codeblocks.org/)  
 	Code::Blocks 是初学者常用的 C/C++ IDE。它也是很好的跨平台 IDE，界面干净利落，支持语法彩色醒目显示，支持代码完成，支持工程管理、项目构建、调试。Code::Blocks 对初学者十分友好，其代码补全功能可以大大提升写代码速度。
-* **Dev-C++**  
+* [**Dev-C++**](https://sourceforge.net/projects/dev-cpp/)  
 	Dev-C++ 是一款适合初学者的轻量级 C/C++ 集成开发环境（IDE），开发环境包括多页面窗口、工程编辑器以及调试器等，在工程编辑器中集合了编辑器、编译器、连接程序和执行程序，提供高亮度语法显示的，以减少编辑错误，还有完善的调试功能，适合初学者与编程高手的不同需求。
-* **Sublime Text**  
+* [**Sublime Text**](https://www.sublimetext.com/)  
 	Sublime Text 是一个代码编辑器，Sublime Text 具有漂亮的用户界面和强大的功能，例如代码缩略图，Python 的插件，代码段等。还可自定义键绑定，菜单和工具栏。Sublime Text 的主要功能包括：拼写检查、书签、完整的 Python API、Goto 功能、即时项目切换、多选择、多窗口等等。Sublime Text 是一个跨平台的编辑器，同时支持 Windows、Linux、Mac OS X 等操作系统。支持多重插件，大大扩展其功能。
-* **Visual Studio Code**  
-	这不是 Visual Studio，Visual Studio Code 是一个代码编辑器，用户界面漂亮，丰富的插件，跨平台支持，内置 Git 支持，最重要的是它不像 Sublime Text 要收费，它是开源免费软件。
+* [**Visual Studio Code**](https://code.visualstudio.com)  
+	这不是 Visual Studio，Visual Studio Code 是一个代码编辑器，用户界面漂亮，[丰富的插件](https://code.visualstudio.com/docs/editor/extension-gallery)，跨平台支持（同时支持 Windows、Linux、Mac OS X 等操作系统），内置 Git 支持，最重要的是它不像 Sublime Text 要收费，它是开源免费软件。
 
 ### 3 工具，脚本类
 
 * **Chrome 插件 HTML5 Video Speed Control**  
 	在 Chrome 看视频时可以调整倍速，对于在 Chrome 学习视频非常实用，比如 B 站 [3Blue1Brown](https://www.3blue1brown.com/) 出品的[《线性代数的本质》系列](https://www.bilibili.com/video/av6731067)（强烈推荐看看，尤其是当你看了让人蒙圈的国内线代教材）。
-* **Tampermonkey** 油猴脚本
+* [**Tampermonkey**](https://www.tampermonkey.net/) 油猴脚本
 
 ### 4 免费获取软件的重要工具 —— 学校邮箱  
 
-带有 edu 后缀的学校邮箱是非常有用的巨大福利！比如说良心好用还很贵的 JetBrains 全家桶，用学校邮箱都可以免费获取非常完整的版本，只需要通过简单的许可证认定；GitHub、微软、谷歌、腾讯云、阿里云等也有教育策略。非常建议充分利用这个资源！
+带有 edu 后缀的学校邮箱是非常有用的巨大福利！比如说良心好用还很贵的 [JetBrains](https://www.jetbrains.com/) 全家桶，用学校邮箱都可以免费获取非常完整的版本，只需要通过简单的许可证认定；GitHub 可以领[学生背包](https://education.github.com/pack)，里面有很多很好的东西；微软、谷歌、腾讯云、阿里云等也有教育策略。非常建议充分利用这个资源！
 
 ## 二、数学建模常用的两大软件 MATLAB 与 LaTeX 的简单介绍及入门
 
@@ -52,7 +52,7 @@
 
 #### 1 MATLAB 的介绍
 
-MATLAB 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是由美国 MathWorks 公司发布的主要面对科学计算、可视化以及交互式程序设计的高科技计算环境。MATLAB 可以进行矩阵运算、绘制函数和数据、实现算法、创建用户界面、连接其他编程语言的程序等，主要应用于工程计算、控制设计、信号处理与通讯、图像处理、信号检测、金融建模设计与分析等领域。  
+[MATLAB](https://www.mathworks.com/products/matlab.html) 是 matrix & laboratory 两个词的组合，意为矩阵实验室。是由美国 MathWorks 公司发布的主要面对科学计算、可视化以及交互式程序设计的高科技计算环境。MATLAB 可以进行矩阵运算、绘制函数和数据、实现算法、创建用户界面、连接其他编程语言的程序等，主要应用于工程计算、控制设计、信号处理与通讯、图像处理、信号检测、金融建模设计与分析等领域。  
 在数模竞赛中，MATLAB 主要用于模型的求解，占有不可或缺的位置。另外，大一的工数与线代两门课也有 MATLAB 上机，强烈建议尽早学习 MATLAB。
 
 #### 2 MATLAB 的安装
@@ -156,7 +156,7 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 
 > 请注意，本部分只作为硬件知识选购的一个科普，非专业推荐，无利益相关。由于大部分的学长学姐一年以上没有买电脑了，所以消息可能有迟滞性如有同学想增添相关知识，请私发给副组，我们会增添上内容并注明作者。
 
-### 笔记本选购心得
+### 1 笔记本选购心得
 
 首先讲一讲买电脑要看哪些指标。
 
@@ -183,7 +183,7 @@ OJ 是用来在线检测程序的判题系统，同时各大 OJ 平台上有大�
 <p id="footnote-ssd">  [4] 用了之后就不想换回来。<a href="#footnote-ssd-ref">&#8617;</a></p>
 
 
-### 整笔记本推荐
+### 2 整笔记本推荐
 
 > “没钱就上船，船翻了就修或者买新的。一个外星人可以买两个船。”
 > 
@@ -238,19 +238,19 @@ Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门
 * Mac 端常用软件推荐	
 	* C 或 C++ 的编译器 CLion。CLion 是一款专为开发 C 及 C++ 所设计的跨平台 IDE，Windows、Linux、Mac 下都支持 CLion。虽然 CLion 收费，但是可以在官网上凭借学生优惠安装，用校园邮箱验证信息
 	* 只用于 Mac 下的集成开发编译器 Xcode。Xcode 是 Mac 上相似于 VS 在 Windows 中的一款编辑器，负责 Apple 平台的所有应用开发，Xcode 中可以选择不同语言自如使用，如 C、C++、Swift、Objective-C 等
-	* Eclipse。Eclipse 主要用于 Java 或 JavaWeb 程序的开发
-	* Pycharm。一款有免费版的用于 Python 语言的 IDE
+	* [Eclipse](https://www.eclipse.org)。Eclipse 主要用于 Java 或 JavaWeb 程序的开发
+	* [Pycharm](https://www.jetbrains.com/pycharm/)。一款有免费版的用于 Python 语言的 IDE
 	* CAJViewerMac。一款用于查看 `.caj` 文件 (从知网下载的论文格式) 的软件
 	* The Unarchiver。Mac 下的解压软件
 	* 迅雷、百度云。老司机都懂
 	* VirtualBox。较为好用的虚拟机管理工具
-	* MySQL 或 PostgreSQL，数据库。Mac 下没有 SQL Server
-	* Appache Tomcat 服务器
-	* Vim 是极为好用的编辑工具，尽管有一定的学习成本
-	* Sublime 编辑 + 终端下编译 也是极为好用的工具 
+	* [MySQL](https://www.mysql.com/) 或 PostgreSQL，数据库。Mac 下没有 SQL Server
+	* [Appache Tomcat](https://tomcat.apache.org/) 服务器
+	* [Vim](https://www.vim.org/) 是极为好用的编辑工具，尽管有一定的学习成本
+	* [Sublime](https://www.sublimetext.com/) 编辑 + 终端下编译 也是极为好用的工具 
 	* 其他。有很多好用的软件同时也具有 Mac 端的版本，如 Office、MATLAB、CS 系列等，虽然资源比较难找，但耐心百度总是有的
 * Mac 下 Python 包管理工具：Anaconda
-* Mac 下软件包管理工具：HomeBrew
+* Mac 下软件包管理工具：[HomeBrew](https://brew.sh/)
 * Mac 下配置环境：和 Windows 直接修改不同，Mac 端通常需要更改 `bash_profile` 配置文件
 
 ## 八、友情链接
