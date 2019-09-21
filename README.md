@@ -244,7 +244,7 @@ Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门
 
 * Mac 端常用软件推荐	
 	* C/C++ 的 IDE [CLion](https://www.jetbrains.com/clion/)。CLion 是一款专为开发 C 及 C++ 所设计的跨平台 IDE，Windows、Linux、Mac 下都支持 CLion。虽然 CLion 收费，但是可以在官网上凭借学生优惠安装，用校园邮箱验证信息
-	* 只用于 Mac 下的集成开发编译器 [Xcode](https://developer.apple.com/xcode/)。Xcode 是 Mac 上相似于 VS 在 Windows 中的一款编辑器，负责 Apple 平台的所有应用开发，Xcode 中可以选择不同语言自如使用，如 C、C++、Swift、Objective-C 等
+	* 只用于 Mac 下的集成开发环境 [Xcode](https://developer.apple.com/xcode/)。Xcode 是 Mac 上相似于 VS 在 Windows 中的一款编辑器，负责 Apple 平台的所有应用开发，Xcode 中可以选择不同语言自如使用，如 C、C++、Swift、Objective-C 等
 	* [Eclipse](https://www.eclipse.org)。Eclipse 主要用于 Java 或 JavaWeb 程序的开发
 	* [Pycharm](https://www.jetbrains.com/pycharm/)。一款有免费版的用于 Python 语言的 IDE
 	* CAJViewerMac。一款用于查看 `.caj` 文件 (从知网下载的论文格式) 的软件
