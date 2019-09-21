@@ -14,8 +14,9 @@
 	* Arch Linux [官方 Wiki](https://wiki.archlinux.org/) 非常全面，涵盖面很广。
 	* 可以使用 [`pacman`](https://wiki.archlinux.org/index.php/Pacman) 安装很多软件，只要 `mirrorlist` 里面有，`pacman` 帮我们找到软件来源，用户只需要告诉他匹配的名字就好了。
 	* 还可以直接使用 [`yay`](https://github.com/yaybu/yay) 来安装，并且配上[清华源](https://mirrors.tuna.tsinghua.edu.cn/)。
+	* 有一些缺点：由于采用了最激烈的更新机制——滚动更新，所以容易滚炸。回滚是 Arch 用户的普通操作。碰到问题上谷歌去搜。
 * 挂载双系统：可以用 `grub` 挂载双系统．第二个系统和第一个系统共用 EFI 分区，这样就不用每次都进入 Boot 选择进入那个分区了。
- 
+
 ### 应用软件
 
 好的软件可以帮助我们提高办公学习效率以及编写代码的体验。
