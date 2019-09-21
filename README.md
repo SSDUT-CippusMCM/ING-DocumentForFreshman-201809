@@ -204,7 +204,12 @@ Dell 电脑一般性价较低，可分为一下系列：
 - Alienware 外星人：高性能游戏体验，配备卓越的显卡和智能 Intel® Core™ 处理器，性能强劲；
 - 等等……
 
-Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门维修，免费维修和更换软件和硬件。(注：某些机型非人为故障三次以上可以更换整机，以上所说的保修情况不同机型是不同的，选购之前需注意)
+Dell 笔记本电脑售后服务较为贴心，购买后一年内可免费上门维修，免费维修和更换软件和硬件<sup><a id="footnote-dell_service" href="#footnote-dell_service-ref">[4]</a></sup>。
+
+---
+
+<p id="footnote-dell_service"> <sup>[1]</sup> 某些机型非人为故障三次以上可以更换整机，以上所说的保修情况不同机型是不同的，选购之前需注意<a href="#footnote-dell_service-ref">&#8617;</a></p>
+
 
 ## 如何问问题？
 
